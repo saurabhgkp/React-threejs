@@ -10,8 +10,7 @@ function BoxOne() {
         api.velocity.set(0, 6, 0);
       }}
       ref={ref}
-    
-    >
+     >
       <boxBufferGeometry attach="geometry" />
       <meshLambertMaterial attach="material" color="hotpink" />
     </mesh>
