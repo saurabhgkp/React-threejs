@@ -6,7 +6,7 @@ import {
 } from 'three';
 import grass from '../grass.jpg';
 
-import Wave from "./Wave";
+;
 
 function PlaneOne() {
 
@@ -26,14 +26,15 @@ function PlaneOne() {
     }));
     return (
       <mesh ref={ref} rotation={[-Math.PI / 2, 0, 0]}>
-        	<planeBufferGeometry attach="geometry" args={[10, 10]} />
-   {/* < Wave  attach="geometry" /> */}
-        <meshLambertMaterial attach="material"  map={texture} 
-        // color= "#ffffff00" 
-        //  transparent 
-        // opacity={0.4}
-        // roughness={1}
-        // metalness={0} 
+        	<planeBufferGeometry attach="geometry" args={[1, 1]} />
+
+        <meshLambertMaterial attach="material" 
+      //   map={texture} 
+        color= "#ffffff00" 
+         transparent 
+        opacity={0.1}
+        roughness={1}
+        metalness={0} 
         
         />
       </mesh>  
