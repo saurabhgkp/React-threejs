@@ -7,7 +7,7 @@ function Ground() {
       <mesh ref={ref} rotation={[-Math.PI / 2, 0, 0]}>
        
        
-        <meshLambertMaterial attach="material"  //color="black"
+        <meshLambertMaterial attach="material"  color="black"
         transparent 
         opacity={0.4}
         roughness={1}
