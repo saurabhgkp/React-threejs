@@ -14,8 +14,6 @@ import WaveFloat from "./components/WaveFloat";
 
 
 
-
-
 //position: [100, 10, 0], fov: 75
 
 
