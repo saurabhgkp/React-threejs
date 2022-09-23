@@ -29,15 +29,21 @@ export default function App() {
        autoRotate
        autoRotateSpeed={-0.2}
       /> */}
-      <Stars />
-      {/* <Sky distance={450000} sunPosition={[0, 1, 0]} inclination={0} azimuth={0.25}  /> */}
+      {/* <Stars /> */}
+      <Sky distance={450000} sunPosition={[0, 1, 0]} inclination={0} azimuth={0.25}  />
       <ambientLight intensity={0.5} />
       <spotLight position={[10, 15, 10]} angle={0.3} />
       <Physics >
         {/* <Brige /> */}
        {/* <Texts  /> */}
        <Box/>
-       <WaveFloat />
+       {/* <WaveFloat /> */}
+{/* <Suspense >
+<Brige />
+</Suspense> */}
+
+
+       
         <PlaneOne  /> 
       <Player position={[0, 3, 3]}/>
      {/* <Ground  position={[0, 0, 0]}/> */}

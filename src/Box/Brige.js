@@ -2,7 +2,7 @@
 import { useGLTF } from "@react-three/drei";
 
 export function Brige(props) {
-  const { nodes, materials } = useGLTF("/me.glb");
+  const { nodes, materials } = useGLTF("/me.gltf");
 
   return (
     <group {...props} dispose={null}>
