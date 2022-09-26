@@ -40,7 +40,7 @@ export default function App() {
        {/* <Box/>  */}
        {/* <WaveFloat /> */}
   
-<Card />
+<Card scale={[0.1,0.1,0.1]} />
 
        
          <PlaneOne  />  
