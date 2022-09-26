@@ -1,11 +1,11 @@
 import React from "react";
 import {  useBox } from "@react-three/cannon";
 import { Html } from "@react-three/drei";
-import './Texts.css'
+import '../Box/Texts.css'
 
-const Texts = () => {
+const Edu = () => {
   const [ref] = useBox(() => ({   //mass: 1,  
-    position: [1, 2, -4] }));
+    position: [1, 2, 5] }));
   return (
     <>
    
@@ -16,17 +16,14 @@ const Texts = () => {
        <h1>  About Me</h1> 
            {/* Saurabh Singh <span style={{ fontSize: '1.5em' }}>🥲 </span> */}
           </div>
-          <p>
-          I am Saurabh Kumar Singh 
-          {/* who is at present looking for job in web development and software development industry. */}
-           Strong professional with a Master’s Degree (M.C.A focused in software development from Institute of Engineering 
-           and Technology, Lucknow, Uttar-Pradesh).
-          </p>
-          <div>
-         <h3> Contact Details  </h3> 
-<h3>Saurabh Singh</h3>
-<h3> ssgkp.singh@gmail.com  </h3>
-          </div>
+        <h4>  EDUCATION</h4>
+        <h3>
+Institute of Engineering & Technology, Lucknow Uttar-Pradesh.<br/>
+Masters of Computer Application •May 2020<br/><br/>
+
+Dr. Rammanohar Lohia Avadh University”, Ayodhya Uttar-Pradesh.<br/>
+Bachelors of Science •May 2017</h3>
+                 
 </Html> 
      
     
@@ -39,4 +36,4 @@ const Texts = () => {
   );
 };
 
-export default Texts;
+export default Edu;

@@ -8,8 +8,10 @@ import Ground from "./Box/Ground";
 import { Player } from "./Box/Player";
 import Texts from "./Box/Texts";
 import Box from "./components/Box";
-import { Brige } from "./Box/Brige";
+
 import WaveFloat from "./components/WaveFloat";
+import Edu from "./components/Edu";
+import Card from "./Box/Card";
 
 
 
@@ -29,23 +31,22 @@ export default function App() {
       /> */}
       {/* <Stars /> */}
       <Sky distance={450000} sunPosition={[0, 1, 0]} inclination={0} azimuth={0.25}  />
-      <ambientLight intensity={0.5} />
-      <spotLight position={[10, 15, 10]} angle={0.3} />
+      <ambientLight intensity={0.5} /> 
+      {/* <spotLight position={[10, 15, 10]} angle={0.3} /> */}
       <Physics >
         {/* <Brige /> */}
-       {/* <Texts  /> */}
-       <Box/>
+       {/* <Texts  /> 
+       <Edu /> */}
+       {/* <Box/>  */}
        {/* <WaveFloat /> */}
-{/* <Suspense >
-<Brige />
-</Suspense> */}
-
+  
+<Card />
 
        
-        <PlaneOne  /> 
-      <Player position={[0, 3, 3]}/>
+         <PlaneOne  />  
+        <Player position={[0, 4, -3]}/>   
      {/* <Ground  position={[0, 0, 0]}/> */}
-      </Physics>
+      </Physics> 
     </Canvas>
   );
 }
