@@ -3,7 +3,7 @@ import {  useBox } from "@react-three/cannon";
 import { Html } from "@react-three/drei";
 import './Texts.css'
 
-const Texts = () => {
+const About = () => {
   const [ref] = useBox(() => ({   //mass: 1,  
     position: [-8, 2, -44] }));
   return (
@@ -40,4 +40,4 @@ const Texts = () => {
   );
 };
 
-export default Texts;
+export default About;

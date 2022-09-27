@@ -30,9 +30,9 @@ function PlaneOne() {
 
         <meshLambertMaterial attach="material" 
       //   map={texture} 
-        color= "#ffffff00" 
+        color= "#000000" 
          transparent 
-        opacity={0.1}
+        opacity={0.4}
         roughness={1}
         metalness={0} 
         

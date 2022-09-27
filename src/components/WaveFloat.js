@@ -16,7 +16,7 @@ function WaveFloat() {
     }));
     return (
       <mesh ref={ref} rotation={[-Math.PI / 1, 0, 0]}>
-        	<planeBufferGeometry attach="geometry" args={[10, 10]} />
+        	<planeBufferGeometry attach="geometry"  />
     < Wave  attach="geometry" /> 
         <meshLambertMaterial attach="material" 
        //  map={texture} 

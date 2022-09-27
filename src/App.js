@@ -10,10 +10,11 @@ import { Player } from "./Box/Player";
 import Box from "./components/Box";
 
 import WaveFloat from "./components/WaveFloat";
-import Edu from "./components/Edu";
+
 import Card from "./Box/Card";
 import Project from "./components/Project";
 import About from "./Box/About";
+import Education from "./components/Education";
 
 
 
@@ -40,7 +41,7 @@ export default function App() {
         <Project />
     
        <About />
-       <Edu />
+      <Education/>
        {/* <Box/>  */}
        {/* <WaveFloat /> */}
   

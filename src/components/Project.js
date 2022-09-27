@@ -5,13 +5,13 @@ import '../Box/Texts.css'
 
 const Project = () => {
   const [ref] = useBox(() => ({   //mass: 1,  
-    position: [0, 2, -20] }));
+    position: [-8, 2, -20] }));
   return (
     <>
    
     <mesh   ref={ref}>
   
-    <Html scale={1} rotation={[Math.PI / 1, 0, 3.1]}  transform occlude>
+    <Html scale={1} rotation={[Math.PI / 1, 1.5, 3.1]}  transform occlude>
         
           <h2> Projects </h2>
     <h3> Memories(mern) </h3>
