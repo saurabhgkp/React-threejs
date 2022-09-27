@@ -26,15 +26,15 @@ function PlaneOne() {
     }));
     return (
       <mesh ref={ref} rotation={[-Math.PI / 2, 0, 0]}>
-        	<planeBufferGeometry attach="geometry" args={[5, 100]} />
+        	<planeBufferGeometry attach="geometry" args={[3, 100]} />
 
         <meshLambertMaterial attach="material" 
-         map={texture} 
-        // color= "#ffffff00" 
-        //  transparent 
-        // opacity={0.1}
-        // roughness={1}
-        // metalness={0} 
+      //   map={texture} 
+        color= "#ffffff00" 
+         transparent 
+        opacity={0.1}
+        roughness={1}
+        metalness={0} 
         
         />
       </mesh>  

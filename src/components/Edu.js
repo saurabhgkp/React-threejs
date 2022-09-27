@@ -5,7 +5,7 @@ import '../Box/Texts.css'
 
 const Edu = () => {
   const [ref] = useBox(() => ({   //mass: 1,  
-    position: [1, 2, 5] }));
+    position: [0, 2, -30] }));
   return (
     <>
    
