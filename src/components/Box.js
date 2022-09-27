@@ -5,7 +5,7 @@ function Box() {
 	return (
 		<mesh
 			onClick={() => {
-				api.velocity.set(0, 2, 0);
+				api.velocity.set(0, 4, -6);
 			}}
 			ref={ref}
 			position={[0, 2, 0]}
