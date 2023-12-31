@@ -1,5 +1,7 @@
 # Getting Started with Create React App
-Live On   https://react-3dbox.netlify.app
+Live On   https://react-3dbox.netlify.app OR https://3dplayerground.netlify.app
+
+* for movement use WASD and space for jump
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
